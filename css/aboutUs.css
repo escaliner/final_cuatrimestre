@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+
+/*color verde elegido #4CAF50*/
+header {
+    background-color: #3976a9;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.botonVolver {
+    right: 0;
+    position: absolute;
+
+}
+
+.nav-button {
+    margin-right: 11px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    color: #3976a9;
+    border: 2px solid #3976a9;
+    padding: 20px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #3976a9;
+    color: #fff;
+}
+
+footer {
+    background-color: #3976a9;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/*Div q contiene la historia familiar.*/
+.historiaPanaderia{
+    border: #3976a9;
+    margin: auto;
+    padding: 50px;
+    width: 1200px;
+    height: 1500px;
+    color: #3976a9;
+    font-size: 26px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: solid;
+}
